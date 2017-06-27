@@ -6,7 +6,8 @@ Dim findRow As Integer
 startingRow = 3
 findRow = 3
 Do While findRow < 2000
-    If Sheets("¢éÍÁÙÅªØÁÊÒÂ").Cells(startingRow, 1).Value <> "" Then //thai language doesn't exist !=[]=!!
+    If Sheets("¢éÍÁÙÅªØÁÊÒÂ").Cells(startingRow, 1).Value <> "" //thai language doesn't exist !=[]=!!
+        Then 
         findRow = findRow + 1
         startingRow = findRow
     Else
