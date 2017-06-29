@@ -1,3 +1,5 @@
+
+//get duct number by adding rank of duct
 Sub getductno_Click()
 totalduct = 0
 
@@ -45,7 +47,7 @@ For rackingrow = 1 To 16
     Next rackingcol
 Next rackingrow
 
-Dim rowtemp, coltemp As Byte
+Dim rowtemp, coltemp As Byte //this is extra of duct ranking that happens sometime.
 If ActiveSheet.racking4.Value = "A" Then
     If Sheets("¢éÍÁÙÅâ_Ã§ÊÃéÒ§·èÍ").Cells(gotorow, 9).Value > 10 Or Sheets("¢éÍÁÙÅâ_Ã§ÊÃéÒ§·èÍ").Cells(gotorow, 9).Value = "" Then
         MsgBox "Error:  äÁèÁÕ¢éÍÁÙÅ ËÃ_Í ¢_Ò´ racking ãË_èà¡Ô_¡ÇèÒ·Õè¡ÓË_´ (i.e., 10x10) ..."
