@@ -1,6 +1,6 @@
-Public totalduct As Integer
+Public totalduct As Integer //อันนี้เป็นหน้าที่เชื่อมกับหน้าสุดท้าย
 
-Sub getInfra_Click()
+Sub getInfra_Click() //link ข้อมูลจากหน้าที่เคยกรอกก่อนหน้านี้
 totalduct = 0
 
 'check exchange
